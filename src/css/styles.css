@@ -1,0 +1,35 @@
+
+
+
+
+.bigTextWarpper {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+}
+
+.bigText {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250px;
+  hyphens: auto;
+  color: white;
+  width: 50%;
+}
+
+.bigText--front {
+  position: absolute;
+  z-index: 20;
+}
+
+.bigText--back {
+  position: absolute;
+  z-index: 10;
+  text-shadow: 0 0 3px grey;
+}
+
+.bigTextImage {
+  position: absolute;
+  z-index: 15;
+
+}
