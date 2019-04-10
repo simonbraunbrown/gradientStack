@@ -17,13 +17,18 @@
   width: 50%;
 }
 
-.bigText--front {
+.bigText--front,
+.bigText--back {
   position: absolute;
+  word-break: break-all;
+
+};
+
+.bigText--front {
   z-index: 20;
 }
 
 .bigText--back {
-  position: absolute;
   z-index: 10;
   text-shadow: 0 0 3px grey;
 }
